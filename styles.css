@@ -1,3 +1,6 @@
+@media (min-width: 769px) {
+/* Styles for desktop devices */
+
 /* General body styles */
 body {
     margin: 0;
@@ -52,4 +55,14 @@ body {
 .navbartext{
     font-family: 'Signika', sans-serif;
     font-size: 130%;
+}
+}
+
+@media (max-width: 768px) {
+    .navbar .logo {
+        color: #ff0000;
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+  }
 }
