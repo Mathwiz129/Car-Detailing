@@ -14,7 +14,7 @@ function setFavicon() {
 
     darkModeMediaQuery.addEventListener("change", (e) => {
         console.log("Color scheme changed:", e.matches ? "Dark" : "Light");
-        favicon.href = e.matches ? "Wheel-Dark.png" : "Wheel-Light.png";
+        favicon.href = e.matches ? "IMAGES\Wheel-Dark.png" : "IMAGES\Wheel-Light.png";
     });
 }
 
