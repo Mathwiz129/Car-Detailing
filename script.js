@@ -9,7 +9,7 @@ function setFavicon() {
         console.log("Dark mode icon set");
     } else {
         favicon.href = "Wheel-Light.png";
-        console.log("Light mode icon setAC");
+        console.log("Light mode icon set");
     }
 
     darkModeMediaQuery.addEventListener("change", (e) => {
