@@ -56,16 +56,69 @@ body {
     font-family: 'Signika', sans-serif;
     font-size: 130%;
 }
+
+.material-symbols-outlined {
+    display:none
+   }
 }
 
 
 
 
 @media (max-width: 768px) {
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    /* Navbar styles */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #336699;
+        padding: 10px 20px;
+    }
+    
     .navbar .logo {
         color: #fff;
         font-size: 24px;
         font-weight: bold;
         text-decoration: none;
-  }
+    }
+    
+    /* Font class for Signika */
+    .signika-font {
+        font-family: 'Signika', sans-serif;
+    }
+    
+    /* Navbar links styles */
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    .navbar ul li {
+        margin-left: 10px;
+    }
+    
+    .navbar ul li a {
+        display:none
+    }
+    
+    .navbar ul li a:hover {
+        background-color: #2F4858;
+        border-radius: 5px;
+    }
+    
+    .navbartext{
+        font-family: 'Signika', sans-serif;
+        font-size: 130%;
+    }
+
+    .material-symbols-outlined {
+        color: #fff;
+       }
 }
